@@ -75,7 +75,7 @@ public class Animal_factory {
 
 Code: [Factory design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Factory_design_patter)
 
-#AB
+# Abstract Factory
 ## What is Abstract Factory?
 
  Abstract factory is a creational design pattern that allow us to create object base on its categories and type .
