@@ -1,4 +1,6 @@
 # Design-Pattern-In-Java
+
+# Factory Design pattern
 Factory design pattern it is a creation design pattern that use to create the object dynamicly.
 
 ## When Should we use Factory Design Pattern ?
@@ -73,11 +75,12 @@ public class Animal_factory {
 
 Code: [Factory design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Factory_design_patter)
 
-# What is Abstract Factory?
+#AB
+## What is Abstract Factory?
 
  Abstract factory is a creational design pattern that allow us to create object base on its categories and type .
 
-# When To Use it ?
+## When To Use it ?
 
 It is very importance to know when to use it because when we face the problem we can identify the specify design pattern to use. And these are some situation that we should use it
 
