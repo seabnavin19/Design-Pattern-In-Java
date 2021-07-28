@@ -94,7 +94,7 @@ So when the user want to get Iphone iphone company will go to ask to phone facto
 
 code: [Abstract factory](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/AbstractFactory)
 
-#Builder Design pattern
+# Builder Design pattern
 ## What is Builder Design pattern ?
 
 Builder design pattern is a design pattern that simplify the object creation when we have complex attribute of object . It will separate each attribute to a builder.
@@ -114,7 +114,7 @@ Builder design pattern is a design pattern that simplify the object creation whe
 ## Coding Part
 
 code:  [builder design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Builder_design_pattern)
-#Singleton Design pattern
+# Singleton Design pattern
 ## What is Singleton design Pattern?
 
 singleton design pattern it is a design pattern that allow us to create only one object of a class
