@@ -71,4 +71,67 @@ public class Animal_factory {
 }
 ```
 
-Git Hub for full code: [Factory design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Factory_design_patter)
+Code: [Factory design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Factory_design_patter)
+
+# What is Abstract Factory?
+
+ Abstract factory is a creational design pattern that allow us to create object base on its categories and type .
+
+# When To Use it ?
+
+It is very importance to know when to use it because when we face the problem we can identify the specify design pattern to use. And these are some situation that we should use it
+
+- when we want to create object dynamic and  group it into category
+- when we don't want user to know all the subclass
+
+## What are the problem to use the Pattern?
+
+Example : Apple company they produce Phone and Laptop so if they put all the product(phone and laptop) in one factory it will be cause a problem in flow of creation so inorder to avoid this they have 2 factory one for phone and another one  for laptop. 
+
+So when the user want to get Iphone iphone company will go to ask to phone factory not laptop factory.
+
+## Coding Part
+
+code: [Abstract factory](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/AbstractFactory)
+
+#Builder Design pattern
+## What is Builder Design pattern ?
+
+Builder design pattern is a design pattern that simplify the object creation when we have complex attribute of object . It will separate each attribute to a builder.
+
+## When Should we Use Builder Design pattern?
+
+- When an object has a lot of attribute
+- number of attribute is dynamic
+- when the user want to customize the attribute of the object
+- hide the createtion from client only the builder class know
+
+## Which type of problem that we should use Builder?
+
+- we use this type of problem when we want to get one object by building it step by step
+- For example : when we want to build a robot and we want a stakeholder to decide what type of robot they want (oldstyle,modern,fast) after get the requirement from customer Engineer analyse it and choose which team of builders will doing this task. So it Engineer choose oldStyle Builder they will built an old style Robot step by step until finish.
+
+## Coding Part
+
+code:  [builder design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/Builder_design_pattern)
+#Singleton Design pattern
+## What is Singleton design Pattern?
+
+singleton design pattern it is a design pattern that allow us to create only one object of a class
+
+## when To use this design pattern?
+
+ We use this design pattern when :
+
+- Allow user to create only one object of the class
+- Make all the class use only that one object
+
+## What is the problem to use this Pattern?
+
+For Example: We make an application that get the attendance in a company so we will have a president in that company . In this situation we need to make president class to be singleton that mean we are not allow to create another president until current president is not available.
+
+## Coding Part
+
+code: [singleton design pattern](https://github.com/seabnavin19/Design-Pattern-In-Java/tree/master/singleton)
+
+
